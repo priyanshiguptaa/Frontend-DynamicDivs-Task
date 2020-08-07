@@ -1,0 +1,28 @@
+{
+  "name": "dynamic",
+  "version": "1.0.0",
+  "description": "frontend task",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "hsts": "^2.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyanshiguptaa/Frontend-DynamicDivs-Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyanshiguptaa/Frontend-DynamicDivs-Task/issues"
+  },
+  "homepage": "https://github.com/priyanshiguptaa/Frontend-DynamicDivs-Task#readme"
+}
