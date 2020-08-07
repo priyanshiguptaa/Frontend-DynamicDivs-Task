@@ -24,7 +24,7 @@ app.use(hsts({ maxAge: 5184000 }));
         
         
 app.get('/', function(req, res){
-        res.render("homee.ejs");
+        res.render("home.ejs");
     });
 
 
