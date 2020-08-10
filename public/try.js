@@ -131,11 +131,11 @@ var lastPage = firstPage;
 // alert("Begin :"+lastPage);
 
 forwardButton.addEventListener('click', ()=>{
-  alert("clicked");
+ //alert("clicked");
   console.log(currentPage);
   if(currentPage<lastPage){
       currentPage++;
-       alert("Changed Current Page F:"+currentPage);
+     //  alert("Changed Current Page F:"+currentPage);
       PageNumber.innerText="Current Page: "+currentPage;
       renderCurrentPage(currentPage);
   }
@@ -144,7 +144,7 @@ forwardButton.addEventListener('click', ()=>{
 backwardButton.addEventListener('click', ()=>{
   if(currentPage>1){
       currentPage--;
-      alert("Changed Current Page B:"+currentPage);
+    //  alert("Changed Current Page B:"+currentPage);
       PageNumber.innerText="Current Page: "+currentPage;
       renderCurrentPage(currentPage);
   }
@@ -155,7 +155,7 @@ quantity_input.addEventListener('change', ()=>{
   currentPage=1;
   lastPage=Math.ceil(quantity_input.value/3);
   //alert("Changed Current Page :"+currentPage);
-  alert("Changed Last Page :"+lastPage);
+ // alert("Changed Last Page :"+lastPage);
   PageNumber.innerText="Current Page: "+currentPage;
   renderCurrentPage(currentPage);
 })

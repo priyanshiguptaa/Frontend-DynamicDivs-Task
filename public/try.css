@@ -23,20 +23,17 @@
     margin-top:30%;
   width: 100%;
    height: 100px; 
-   
+   padding-left:30%;
     background: rgb(141, 139, 139);
 }
 
-#fourdiv{
-    background-color:rgb(238, 234, 234); height: 100%; width: 40%;
-    display: block;
-      
-}
-
-.dropdown {
+#dropdown {
     position: absolute;
-    z-index: 1;
+    background: rgb(141, 139, 139);
     display: inline-block;
+    height: 100vh;
+    width: 15vw;
+    z-index: 2;
   }
   
   .dropdown-content {
@@ -58,72 +55,92 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dynamicdiv{
-    /* border:3px solid yellow; */
-     height:20%; 
-     
-     margin-bottom: 5%;
-     margin-left: 40%;
-     margin-right: 10%;
-    flex:4;
-    background-color: rgb(233, 21, 21);
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-}
+  
 .div-generated{
+  text-align: center;
   display:flex;
   height:100px;
-  width:80vw;
+  width:50vw;
   border:1px solid #a09c9c;
   margin: 30px;
   align-items: center;
-  text-align: center;
+  border:1px solid #a09c9c;
   background-color: #afabab;
+}
+.dynamic-div-container{
+  /* border:3px solid yellow; */
+  /* height:100vh; */
+  flex:4;
+  background-color:#e7e6e6;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .right-div{
   /* border:1px solid #a1a1a1; */
   /* border:3px solid black; */
-  height:100%;
+  height:100vh;
   /* width:20vw; */
   width: 70%;
-  height: 100%; 
+
   float: right;
   flex:5;
+  
   background-color:#e7e6e6;
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
+
   
   /* margin: 0px; */
 }
 .buttons-container{
-  /* border:3px solid blue; */
+  /* border:3px solid blue; 
   margin-top:60%;
  
-  /* background-color: #afabab; */
-  text-align: center;
-   height: 20%; 
-  flex:1;
-  background-color: #aaa;
+  /* background-color: #afabab;
   
-
+   height: 5%; 
+  flex:1;
+  margin-bottom: 20%; 
+  background-color: #aaa;
+  text-align: center;*/
+  margin-top:35%;
+  width: 100%;
+   height: 100px; 
+   padding-left: 28%;
+   
+   background-color:#e7e6e6;
+    position: fixed;
+  }
+  .disk-number{
+    /* align-self:flex-start; */
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    margin:20px;
+    text-align: center;
+    background-color:	#d0cece;
+    border:1px solid#afabab;
+}
+#current{
+  color:rgb(141, 139, 139);
 }
 
 
 #box-1 {
-  background-color: #bbb;
+ 
   margin-top: 3%;
-  
+  background-color:#e7e6e6;
   width: 3%;
-  height: 3%;
+  height: 20%;
 }
 
 #box-2 {
-  background-color: #bbb;
-  margin-top: 3%;
  
+  margin-top: 3%;
+  background-color:#e7e6e6;
   width: 3%;
-  height: 3%;
+  height: 20%;
 }

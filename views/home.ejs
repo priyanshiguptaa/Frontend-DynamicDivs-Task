@@ -1,13 +1,12 @@
 <html>
     <head><title>one go</title>
         <link rel="stylesheet" href="/try.css">
-       
         
         <script>
     
         function myFunc() {
             //alert("hi");
-              var x = document.getElementById("fourdiv");
+              var x = document.getElementById("dropdown");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -15,22 +14,7 @@
               }
             }
             
-            function myfunction(first) {
-    //deletePreviousDivs();
-    for (var i = 1; i <= first; i++) {
-      var div = document.createElement("div");
-
-      div.id = 'dynamicdiv';
-div.innerHTML =  i+"." + "   " + 'ITEM';
-div.className = 'border pad';
-// div.style.background="grey";
-// div.style.color="black";
-
-
-           document.body.appendChild(div);
-}
-
-}</script>
+</script>
     </head>
     <body>
         <div class="myDiv">
@@ -39,34 +23,34 @@ div.className = 'border pad';
                 
             </div>
             <div class="thirddiv">
-                <h5 style="padding-left:30%;">Quantity</h5>
+                <h5>Quantity</h5>
                 <input type="number" name="first" id="first"><br>
-                <button onclick="myfunction(document.getElementById('first').value)">submit</button> 
-                <span id="current">1</span>
+               
+                <span id="current">current page : 1</span>
             </div>
             
         </div>
      
+<div class="right-div">
 
-
-<div id="fourdiv">
-    <div class="dropdown">
+   
+    <div id="dropdown">
         <button class="dropbtn">Dropdown</button>
         <div class="dropdown-content">
         <a href="#">1</a>
         <a href="#"> 2</a>
         <a href="#"> 3</a>
         </div>
-</div>
-</div>
-<div class="right-div">
+      </div>
+
+
 <div class="dynamic-div-container">
     
     
         </div>
         <div class="buttons-container">
-            <button id="box-1"><strong style="color:black;"> << </strong></button>
-            <button id="box-2"><strong style="color:black;"> >> </strong></button>
+            <img src="/back.png" id="box-1">
+            <img src="/for.png" id="box-2">
         </div>
     </div>
 <script src="/try.js"></script>
