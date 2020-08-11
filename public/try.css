@@ -34,6 +34,7 @@
     height: 100vh;
     width: 15vw;
     z-index: 2;
+    display: none;
   }
   
   .dropdown-content {
@@ -143,4 +144,7 @@
   background-color:#e7e6e6;
   width: 3%;
   height: 20%;
+}
+div{
+  /* border:1px solid white; */
 }
