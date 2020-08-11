@@ -15,8 +15,10 @@
      
       background: rgb(141, 139, 139);
   }
-   button{
-       margin-top:10%;
+   #but{
+       margin-top:20%;
+       text-align: centers;
+       padding-top: 10%;
        margin-left: 29%;
    }
    .thirddiv {
@@ -144,7 +146,4 @@
   background-color:#e7e6e6;
   width: 3%;
   height: 20%;
-}
-div{
-  /* border:1px solid white; */
 }
